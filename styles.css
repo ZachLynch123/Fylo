@@ -22,6 +22,22 @@ header {
     padding: 3% 2%;
 }
 
+.header-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-image {
+    padding-top: 100px;
+}
+
+.header-image img{
+    width: 15rem;
+
+}
+
 
 
 
