@@ -35,7 +35,22 @@ header {
 
 .header-image img{
     width: 15rem;
+}
 
+.features-container {
+    text-align: center;
+    padding-top: 35%;
+}
+
+.features-grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.feature {
+    text-align: center;
+    padding-top: 35%;
 }
 
 
