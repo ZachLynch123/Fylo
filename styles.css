@@ -9,7 +9,7 @@ header {
     background: url(./images/bg-intro-mobile.svg);
     background-repeat: no-repeat;
     background-position-x: right;
-    background-size: 62vw;
+    background-size: 69vw;
     padding-top: 6%;
 }
 
@@ -28,7 +28,26 @@ header {
     padding: 3% 2%;
 }
 
+.action-button {
+    border: none;
+    color: white;
+    background-color: hsl(163, 95%, 43%);
+    border-radius: 3px;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: -8px;
+}
+
+.invis-button {
+    color: white;
+    text-decoration: none;
+}
+
 .header-container {
+    padding: 4%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: 0 auto;
@@ -85,10 +104,13 @@ header {
 }
 
 .footer {
-    padding: 14% 3%;
+    padding: 14% 6%;
     color: aliceblue;
     background: hsl(243, 87%, 12%);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
+
 
 .footer input {
     width: 92%;
@@ -98,6 +120,10 @@ header {
 
 .footer button {
     float: right;
+}
+
+.contact-text {
+    padding-top: 20%;
 }
 
 
