@@ -111,7 +111,7 @@ header {
 }
 
 .footer {
-    padding: 14% 6%;
+    padding: 20% 6%;
     color: aliceblue;
     background: hsl(243, 87%, 12%);
     display: grid;
@@ -127,6 +127,9 @@ header {
 
 .footer button {
     float: right;
+    padding: 7px 53px;
+    font-size: 13px;
+    margin-top: 15px;
 }
 
 .contact-text {
