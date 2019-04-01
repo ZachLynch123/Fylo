@@ -12,6 +12,7 @@ body, html {
 
 .title {
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 
@@ -100,6 +101,10 @@ header {
     text-align: center;
 }
 
+.connect-text {
+    padding: 3%;
+}
+
 .card-wrapper {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -115,7 +120,7 @@ header {
     padding-bottom: 10%;
 }
 
-.call-to-action {
+.bottom-call-to-action {
     text-align: center;
     padding-bottom: 10%;
 }
@@ -149,6 +154,10 @@ header {
 
 .contact-text {
     padding-top: 20%;
+}
+
+footer {
+    background: hsl(243, 87%, 12%);
 }
 
 
