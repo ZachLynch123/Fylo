@@ -217,7 +217,39 @@ header {
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .connect-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 30%;
+    }
+
+    .connect-text {
+        text-align: left;
+        padding: 0 10% 0 13%;
+    }
+
+    .card-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        padding-right: 4%;
+        grid-gap: 30px;
+    }
+
     .card {
         padding: 5% 4%;
+        margin-bottom: 36px;
+        box-shadow: 1px 1px 2px 1px hsl(0, 0%, 90%);
     }
+
+    .card img {
+        padding: 15%;
+        border-bottom: 3px solid hsl(106, 0%, 98%);
+    }
+
+    .card:nth-child(even) {
+        margin-top: -100px;
+    }
+
+
+
+
 }
