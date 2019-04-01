@@ -245,8 +245,22 @@ header {
         border-bottom: 3px solid hsl(106, 0%, 98%);
     }
 
-    .card:nth-child(even) {
+    .card:nth-child(2) {
         margin-top: -100px;
+    }
+
+    .card:nth-child(5) {
+        margin-top: -48px;
+    }
+
+    .bottom-call-to-action {
+        text-align: center;
+        padding: 10% 21% 10% 21%;
+    }
+
+    .bottom-call-to-action .action-button {
+        margin-top: 30px;
+        padding: 17px 63px;
     }
 
 
