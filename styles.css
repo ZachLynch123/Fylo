@@ -191,22 +191,26 @@ header {
         position: absolute;
         left: 0;
         right: 0;
-        margin-top: -25vh;
+        margin-top: -43vh;
         margin-left: auto;
         margin-right: auto;
-        height: 153vh;
-        width: 65vw;
+        height: 182vh;
+        width: 51vw;
         border-radius: 30px;
         -ms-transform: skewY(20deg); /* IE 9 */
         -webkit-transform: skewY(20deg); /* Safari 3-8 */
-        transform: skewY(20deg);         background-color: hsl(106, 0%, 98%);
+        transform: skewY(30deg);         background-color: hsl(106, 0%, 98%);
          z-index: -10000;
-        transform: rotate(108deg);
+        transform: rotate(104deg);
     }
 
     .features-container {
         padding-top: 10%;
         z-index: 10000;
+    }
+    .features-text {
+        text-align: center;
+        padding: 0 30% 0 30%;
     }
 
     .features-grid-wrapper {
